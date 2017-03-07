@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>oswformat</string>
+	<string>onslogfunc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[NSString stringWithFormat:@"&lt;#format#&gt;", &lt;#...#&gt;];</string>
+	<string>NSLog(@"%s", __func__);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2DFF9347-F836-453A-B0EB-3FA3B6FD152D</string>
+	<string>BA0D6000-226C-45C7-89D2-72EF484E0885</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>String with Format</string>
+	<string>OC-Debug Reachable</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

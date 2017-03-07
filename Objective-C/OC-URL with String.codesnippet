@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>oassign</string>
+	<string>ouwstring</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (assign, nonatomic) &lt;#type#&gt; &lt;#ivar#&gt;;</string>
+	<string>[NSURL URLWithString:@"&lt;#URLString#&gt;"];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BB8C54EA-CE8E-4999-87FD-88FAC3425198</string>
+	<string>D5989E35-8CDF-4ED2-BB86-A24E0860420D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property Declaration - Assign</string>
+	<string>OC-URL with String</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

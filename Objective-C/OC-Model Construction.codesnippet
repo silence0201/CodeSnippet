@@ -3,24 +3,37 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>olazy</string>
+	<string>omodelconstruction</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (&lt;#type#&gt;)&lt;#ivar#&gt; {
-	if(!_&lt;#ivar#&gt;) {
-		_&lt;#ivar#&gt; = &lt;#code#&gt;
+	<string>- (instancetype)initWithDictionary:(NSDictionary *)dictionary {
+	if (self = [super init]) {
+		[self setValuesForKeysWithDictionary:dictionary];
 	}
-	return _&lt;#ivar#&gt;;
+	return self;
+}
+
++ (instancetype)&lt;#className#&gt;WithDictionary:(NSDictionary *)dictionary {
+	return [[self alloc] initWithDictionary:dictionary];
+}
+
+- (void)setValue:(id)value forKey:(NSString *)key {
+    
+    [super setValue:value forKey:key];
+}
+
+- (void)setValue:(id)value forUndefinedKey:(NSString *)key {
+    
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>93366C5C-15C7-4FCC-AC9F-F437A7E38710</string>
+	<string>60B52016-14E1-4887-AB54-AE269D3FFF18</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Lazy Initalization</string>
+	<string>OC-Model Construction</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

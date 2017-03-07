@@ -3,29 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>oswitch</string>
+	<string>osself</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>switch (&lt;#expression#&gt;) {
-		case &lt;#constant#&gt;:
-			&lt;#expression#&gt;
-			break;
-		case &lt;#constant#&gt;:
-			&lt;#expression#&gt;
-			break;
-		default:
-			&lt;#expression#&gt;
-			break;
-	}</string>
+	<string>__strong __typeof(&lt;#weakSelf#&gt;)strongSelf = &lt;#weakSelf#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>04AE8996-231B-477B-826B-E82C831F1205</string>
+	<string>1777F9AA-74DE-48B3-B38C-FC03AAF1A8B8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Switch</string>
+	<string>OC-Strong Self</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>oinamed</string>
+	<string>oweak</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[UIImage imageNamed:@"&lt;#imageName#&gt;"];</string>
+	<string>@property (weak, nonatomic) &lt;#type#&gt; &lt;#ivar#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C8025989-1E05-4FAE-AEF4-FB7BB7657B32</string>
+	<string>27FBB903-F2DD-4B4C-9804-6910D6309F24</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Image Named</string>
+	<string>OC-Property Decleration - Weak</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,19 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ocopy</string>
+	<string>oswitch</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (copy, nonatomic) &lt;#type#&gt; &lt;#ivar#&gt;;</string>
+	<string>switch (&lt;#expression#&gt;) {
+		case &lt;#constant#&gt;:
+			&lt;#expression#&gt;
+			break;
+		case &lt;#constant#&gt;:
+			&lt;#expression#&gt;
+			break;
+		default:
+			&lt;#expression#&gt;
+			break;
+	}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>FFD3B41D-807E-4991-8750-3C30EDEDAA02</string>
+	<string>04AE8996-231B-477B-826B-E82C831F1205</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property Decleration - Copy</string>
+	<string>OC-Switch</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

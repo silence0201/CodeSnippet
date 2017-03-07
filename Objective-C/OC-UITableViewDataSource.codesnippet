@@ -3,37 +3,33 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>omodelconstruction</string>
+	<string>otvds</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype)initWithDictionary:(NSDictionary *)dictionary {
-	if (self = [super init]) {
-		[self setValuesForKeysWithDictionary:dictionary];
-	}
-	return self;
+	<string>#pragma mark - UITableViewDataSource
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+	
+	return &lt;#numberOfRows#&gt;
 }
 
-+ (instancetype)&lt;#className#&gt;WithDictionary:(NSDictionary *)dictionary {
-	return [[self alloc] initWithDictionary:dictionary];
-}
-
-- (void)setValue:(id)value forKey:(NSString *)key {
-    
-    [super setValue:value forKey:key];
-}
-
-- (void)setValue:(id)value forUndefinedKey:(NSString *)key {
-    
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+	
+	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:&lt;#reuseId#&gt; forIndexPath:indexPath];
+	
+	&lt;#cell configuration code#&gt;
+	
+	return cell
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>60B52016-14E1-4887-AB54-AE269D3FFF18</string>
+	<string>7344FE27-D33A-46E6-8BA8-6A7BC779D1EE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Model Construction</string>
+	<string>OC-UITableViewDataSource</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>omark</string>
+	<string>oinamed</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - <#Section#></string>
+	<string>[UIImage imageNamed:@"&lt;#imageName#&gt;"];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1D707222-5F2B-453C-8522-63F6462D3943</string>
+	<string>C8025989-1E05-4FAE-AEF4-FB7BB7657B32</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>gwpmark</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>pragme mark -</string>
+	<string>OC-Image Named</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

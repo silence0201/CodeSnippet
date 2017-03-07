@@ -3,19 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>osself</string>
+	<string>oasync</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__strong __typeof(&lt;#weakSelf#&gt;)strongSelf = &lt;#weakSelf#&gt;;</string>
+	<string>	dispatch_async(dispatch_get_global_queue(0, 0), ^{
+		
+		&lt;#code#&gt;
+		
+		dispatch_async(dispatch_get_main_queue(), ^(void) {
+			&lt;#code#&gt;
+		});
+	});</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1777F9AA-74DE-48B3-B38C-FC03AAF1A8B8</string>
+	<string>240199F1-1263-4928-B6F4-B75BA3D2FE4A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Strong Self</string>
+	<string>OC-Dispatch Async Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

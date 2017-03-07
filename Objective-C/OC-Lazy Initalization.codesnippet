@@ -3,19 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ostrong</string>
+	<string>olazy</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) &lt;#type#&gt; &lt;#ivar#&gt;;</string>
+	<string>- (&lt;#type#&gt;)&lt;#ivar#&gt; {
+	if(!_&lt;#ivar#&gt;) {
+		_&lt;#ivar#&gt; = &lt;#code#&gt;
+	}
+	return _&lt;#ivar#&gt;;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5ACE2ECF-6171-4621-94D3-ED34A7201AF6</string>
+	<string>93366C5C-15C7-4FCC-AC9F-F437A7E38710</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property Decleration - Strong</string>
+	<string>OC-Lazy Initalization</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

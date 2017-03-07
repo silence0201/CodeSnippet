@@ -3,19 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>owself</string>
+	<string>oinitfactory</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__weak typeof(self)weakSelf = self;</string>
+	<string>- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
++ (instancetype)&lt;#className#&gt;WithDictionary:(NSDictionary *)dictionary;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E81DF708-54C2-484A-BFFE-F1EE5148DEEC</string>
+	<string>B3FF2A32-93B8-4A80-BDB5-DABFDE5BDEF9</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Weak Self</string>
+	<string>OC-Model Interfaces</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
